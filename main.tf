@@ -16,7 +16,7 @@ provider "aws" {
 }
 
 resource "aws_ecr_repository" "devopsthehardway-ecr-repo" {
-  name                 = var.repo_name
+  name                 = "test92222"
   image_tag_mutability = "MUTABLE"
 
   image_scanning_configuration {
